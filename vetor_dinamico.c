@@ -5,7 +5,7 @@
 typedef struct  {
   void* array;
   size_t capacidade;
-  size_t tamanho;
+  size_t tamanho_atual;
   size_t tamanho_elemento;
 } VetorDinamico;
 
